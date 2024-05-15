@@ -12,3 +12,4 @@
     10. The two anomaly elements in a form that are not inputs are select and textarea.
 
     # Two things I'm constantly struggling to remember are enctype and role (This one took me multiple days)
+    # I just found out that Emet is actually inbuilt in VS Code and that's why it automatically finishes our tags etc. 
