@@ -1,4 +1,4 @@
-# I am learning  lot of things while working on this basic project.
+# I am learning a lot of things while working on this basic project.
     # I learnt how to format my HTML code to be more readable. I don't always have to enclose the text in it's own line. For examle: 
         Using <title>Page Title</title>
         Rather than: <title>
@@ -12,3 +12,6 @@
     # Use button role even on simple buttons.
     # Only use the heading element when making a page title, section title, or article title. Do not use it for album title etc. Remember that it has semantic meaning. Use a div instead.
     # If stuff is inline, use a span rather than a div unless it contains many pther elements.
+    # Always add an alt tag to images when I put them on the website. This allows them to show up even before I add the source.
+    # Always change the file extension of webmp to png.
+    # It's okay to style images with width and height in HTML before using CSS.
