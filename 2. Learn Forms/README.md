@@ -5,3 +5,4 @@
     <!-- GET appends sensitive information to the url so don't use it on an actual site -->
     4. Name allows the info entered to be proccesed by a server while id allows <label> to recognise the input field being refered to. It's also useful for screen readers and people with a disability.
     5. Value can be used to set a default value while placeholder sets a placeholder text that disappears when you type.
+    6. Checkbox allows for multiple selection while radio button only allows one.
