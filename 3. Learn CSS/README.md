@@ -5,6 +5,5 @@
     2. Type main, body, nav, etc.
     3. Class .class-name
     4. ID #id-name
-
 # Why not to use class selectors in JavaScript?
 https://blog.webdevsimplified.com/2019-10/do-not-use-class-selectors-in-javascript/
