@@ -15,4 +15,4 @@
     10. Always add an alt tag to images when I put them on the website. This allows them to show up even before I add the source.
     11. Always change the file extension of webmp or jpg/jpeg to png.
     12. It's okay to style images with width and height in HTML before using CSS.
-    <!-- I'd say 12. applies to more than one stuff too. For example, using divs to add elements to their own line rather than styling it as a block element. -->
+<!-- I'd say 12. applies to more than one stuff too. For example, using divs to add elements to their own line rather than styling it as a block element. -->
