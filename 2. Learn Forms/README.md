@@ -9,5 +9,6 @@
     7. Always add radio values so the submit page knows what is being selected.
     8. By default a select element only allows a single selection but the multiple attribute allows multiple selection.
     9. enctype="multipart/form-data" goes inside the form tag and it allows files to be used by a server.
+    10. The two anomaly elements in a form that are not inputs are select and textarea.
 
     # Two things I'm constantly struggling to remember are enctype and role (This one took me multiple days)
