@@ -1,3 +1,19 @@
-input[type="checkbox"]:checked + label {
-  text-decoration: line-through;
+section {
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(0, 0%, 0%);
+  margin: 20px auto;
+  max-width: 80%;
+}
+
+h2 {
+  background-color: hsl(0, 0%, 56%);
+  border-bottom: 2px solid hsl(0, 0%, 100%);
+  margin: 0;
+  padding: 20px;
+  position: sticky;
+  top: 120px;
+}
+
+.para {
+  margin: 8px;
 }

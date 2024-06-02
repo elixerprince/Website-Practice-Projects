@@ -1,5 +1,5 @@
-h1 {
-  text-align: center;
+body {
+  background-color: hsl(0, 0%, 56%);
 }
 
 table, th, td {
@@ -10,6 +10,14 @@ table, th, td {
 }
 
 table {
-  margin: 0 auto;
+  background-color: hsl(0, 0%, 100%);
+  border: 2px solid hsl(0, 0%, 0%);
+  margin: 10px auto 0 auto;
   max-width: 80%;
+}
+
+th {
+  background-color: hsl(0, 0%, 0%);
+  border: 2px solid hsl(0, 0%, 100%);
+  color: hsl(0, 0%, 100%);
 }

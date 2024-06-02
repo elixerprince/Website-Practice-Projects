@@ -4,14 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Morning Routine</title>
+  <link rel="stylesheet" href="Styles/main.css">
   <link rel="stylesheet" href="Styles/routines.css">
+  <script src="Scripts/clock.js" defer></script>
 </head>
 <body>
   <header>
-    <h1>List of Routines</h1>
+    <h1>List of Routines <span class="time"></span></h1>
   </header>
   <main>
-    <div class="morning" id="morning">
+    <section class="morning" id="morning">
       <h2>Morning Routine</h2>
       <ol>
         <li>
@@ -31,17 +33,19 @@
           <label for="item4">Journal Entry (Morning)</label>
         </li>
       </ol>
-    </div>
-    <div class="tips">
+    </section>
+    <section class="tips">
       <h2>Productivity Tips</h2>
       <ul>
         <li>Using music makes chores less tedious.</li>
       </ul>
-    </div>
-    <div class="workout" id="workout">
+    </section>
+    <section class="workout" id="workout">
       <h2>Workout Routine</h2>
-      <input type="checkbox" name="item9" id="item9">
-      <label for="item9">Warm-up (Jumping Jacks)</label>
+      <div class="para">
+        <input type="checkbox" name="item9" id="item9">
+        <label for="item9">Warm-up (Jumping Jacks)</label>
+      </div>
       <ul>
         <li>
           <h3>Set 1</h3>
@@ -128,8 +132,8 @@
           </ol>
         </li>
       </ul>
-    </div>
-    <div class="night" id="night">
+    </section>
+    <section class="night" id="night">
       <h2>Night Routine</h2>
       <ol>
         <li>
@@ -149,9 +153,10 @@
           <label for="item8">Leisure and Sleep</label>
         </li>
       </ol>
-    </div>
+    </section>
   </main>
   <footer>
+    <a href="#">Back to Top</a>
     <a href="learn-tables.html">Back to Summer Timetable</a>
   </footer>
 </body>
