@@ -1,6 +1,6 @@
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener("DOMContentLoaded", () => {
   // Get the timer element
-  const timerElement = document.querySelector('.time');
+  const timerElement = document.querySelector(".time");
 
   // Function to update the timer
   function updateTimer() {
@@ -9,10 +9,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Format the time as HH:MM:SS AM/PM
     const hours = currentTime.getHours();
-    const minutes = currentTime.getMinutes().toString().padStart(2, '0');
-    const seconds = currentTime.getSeconds().toString().padStart(2, '0');
-    const ampm = hours >= 12 ? 'PM' : 'AM';
-    const formattedHours = (hours % 12 || 12).toString().padStart(2, '0');
+    const minutes = currentTime.getMinutes().toString().padStart(2, "0");
+    const seconds = currentTime.getSeconds().toString().padStart(2, "0");
+    const ampm = hours >= 12 ? "PM" : "AM";
+    const formattedHours = (hours % 12 || 12).toString().padStart(2, "0");
     const formattedTime = `${formattedHours}:${minutes}:${seconds} ${ampm}`;
 
     // Update the timer element with the current time

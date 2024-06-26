@@ -2,7 +2,9 @@ body {
   background-color: hsl(0, 0%, 56%);
 }
 
-table, th, td {
+table,
+th,
+td {
   border: 1px solid black;
   border-collapse: collapse;
   padding: 10px;
